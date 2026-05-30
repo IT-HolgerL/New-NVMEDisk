@@ -17,17 +17,18 @@ The module requires PowerCLI.
 It can be installed using the following command:
 
 Install-Module -Name VCF.PowerCLI
-Installation for the Current User (No Admin Rights Required)
 
-Copy the entire Modules folder to the following path:
+### Installation for the Current User (No Admin Rights Required)
+
+Copy the entire **Modules** folder to the following path:
 
 C:\Users\<username>\Documents\WindowsPowerShell\Modules
-##System-Wide Installation
+### System-Wide Installation
 
 Copy the entire Modules folder to the following path:
 
 C:\Windows\System32\WindowsPowerShell\v1.0\Modules
-Availability Check
+### Availability Check
 
 Open PowerShell and run the following commands:
 
@@ -36,12 +37,10 @@ Get-Command -Module New-NVMEDisk
 
 Expected output:
 
-CommandType Name Version Source
+CommandType     Name                                               Version    Source                                                                               
+                                                                           
+Function        New-NVMEDisk                                       1.0        New-NVMEDisk                                                                         
 
----
-
-Function New-NVMEDisk 1.0 New-NVMEDisk
-Example Usage
 
 Open PowerShell:
 
