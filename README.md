@@ -1,7 +1,7 @@
 # New-NVMEDisk
 Powershell-Module to add an exisitng Vmware vm
 
-#Description
+# Description
 
 The PowerShell module New-NVMEDisk adds a new NVMe disk to an existing VMware VM.
 
@@ -9,8 +9,8 @@ The disk is attached to an already existing NVMe controller of the VM.
 
 The module supports Thin and Thick Provisioning as well as optional Eager Zeroing.
 
-#Installation (Windows)
-##Requirements
+# Installation (Windows)
+## Requirements
 
 The module requires PowerCLI.
 
