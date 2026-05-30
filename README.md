@@ -45,5 +45,6 @@ Function        New-NVMEDisk                                       1.0        Ne
 Open PowerShell:
 
 Import-Module New-NVMEDisk
+
 New-NVMEDisk -VM 'vmname' -DiskSizeInGB 20
 
